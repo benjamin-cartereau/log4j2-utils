@@ -32,7 +32,7 @@ Usage example:
 <Elasticsearch [...]>  
     [...]  
     <JacksonJsonLayout [...]>  
-	<JacksonMixIn mixInClass="fr.cnav.architect.mersi.log4j.jackson.MultiformatMessageJacksonJsonMixIn"
+	<JacksonMixIn mixInClass="fr.bcarter.log4j.jackson.MultiformatMessageJacksonJsonMixIn"
 							  targetClass="org.apache.logging.log4j.core.LogEvent" />  
     [...]  
     </JacksonJsonLayout>  
